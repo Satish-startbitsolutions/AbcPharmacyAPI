@@ -43,7 +43,7 @@ builder.Services.AddScoped<ISaleService, SaleService>();
 // ── CORS — allow frontend during development ──────────────────────
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowFrontend", policy =>
+    options.AddPolicy("AllowAll", policy =>
     {
         policy
             .AllowAnyOrigin()
@@ -76,7 +76,7 @@ app.UseSwaggerUI(c =>
 app.UseHttpsRedirection();
 
 // 4. CORS
-app.UseCors("AllowFrontend");
+app.UseCors("AllowAll");
 
 // 5. Routing + controllers
 app.UseRouting();
