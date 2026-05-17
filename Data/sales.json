@@ -1,0 +1,23 @@
+[
+  {
+    "Id": 1,
+    "MedicineId": 2,
+    "Medicine": {
+      "Id": 2,
+      "FullName": "Aspirin 75mg",
+      "Notes": "Blood thinner for heart patients.",
+      "ExpiryDate": "2026-12-15T00:00:00Z",
+      "Quantity": 135,
+      "Price": 24.00,
+      "Brand": "Bayer",
+      "CreatedAt": "2026-05-17T02:38:16.2528731Z",
+      "UpdatedAt": "2026-05-17T03:30:51.0649404Z"
+    },
+    "QuantitySold": 5,
+    "UnitPrice": 24.00,
+    "TotalAmount": 120.00,
+    "CustomerName": "City Hospital",
+    "Notes": null,
+    "SoldAt": "2026-05-17T03:30:51.066389Z"
+  }
+]

@@ -124,7 +124,8 @@ public class SaleService : ISaleService
         };
 
         _store.Sales.Add(sale);
-
+        _store.SaveSales();
+        _store.SaveMedicines();
         return Task.FromResult<(SaleResponse?, string?)>((ToResponse(sale), null));
     }
 

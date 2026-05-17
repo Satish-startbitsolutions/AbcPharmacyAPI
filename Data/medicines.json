@@ -1,0 +1,123 @@
+[
+  {
+    "Id": 1,
+    "FullName": "Losartan 50mg",
+    "Notes": "Used for high blood pressure management.",
+    "ExpiryDate": "2027-04-10T00:00:00Z",
+    "Quantity": 85,
+    "Price": 78.50,
+    "Brand": "Sun Pharma",
+    "CreatedAt": "2026-05-17T02:38:16.2528731Z",
+    "UpdatedAt": "2026-05-17T02:39:57.6404018Z"
+  },
+  {
+    "Id": 2,
+    "FullName": "Aspirin 75mg",
+    "Notes": "Blood thinner for heart patients.",
+    "ExpiryDate": "2026-12-15T00:00:00Z",
+    "Quantity": 135,
+    "Price": 24.00,
+    "Brand": "Bayer",
+    "CreatedAt": "2026-05-17T02:38:16.2528731Z",
+    "UpdatedAt": "2026-05-17T03:30:51.0649404Z"
+  },
+  {
+    "Id": 3,
+    "FullName": "Vitamin D3 60000 IU",
+    "Notes": "Vitamin supplement for deficiency treatment.",
+    "ExpiryDate": "2027-01-20T00:00:00Z",
+    "Quantity": 65,
+    "Price": 95.00,
+    "Brand": "Mankind",
+    "CreatedAt": "2026-05-17T02:38:16.2528731Z",
+    "UpdatedAt": "2026-05-17T02:39:57.6404018Z"
+  },
+  {
+    "Id": 4,
+    "FullName": "Montelukast 10mg",
+    "Notes": "Used for allergy and asthma treatment.",
+    "ExpiryDate": "2026-06-08T00:00:00Z",
+    "Quantity": 9,
+    "Price": 155.00,
+    "Brand": "Cipla",
+    "CreatedAt": "2026-05-17T02:38:16.2528731Z",
+    "UpdatedAt": "2026-05-17T02:39:57.6404018Z"
+  },
+  {
+    "Id": 5,
+    "FullName": "Telmisartan 40mg",
+    "Notes": "Hypertension medication.",
+    "ExpiryDate": "2026-05-15T00:00:00Z",
+    "Quantity": 115,
+    "Price": 132,
+    "Brand": "Lupin",
+    "CreatedAt": "2026-05-17T02:38:16.2528731Z",
+    "UpdatedAt": "2026-05-17T03:21:03.5889494Z"
+  },
+  {
+    "Id": 6,
+    "FullName": "Cefixime 200mg",
+    "Notes": "Antibiotic for bacterial infections.",
+    "ExpiryDate": "2026-05-28T00:00:00Z",
+    "Quantity": 60,
+    "Price": 210,
+    "Brand": "Alkem",
+    "CreatedAt": "2026-05-17T02:38:16.2528731Z",
+    "UpdatedAt": "2026-05-17T03:23:30.9971038Z"
+  },
+  {
+    "Id": 7,
+    "FullName": "Domperidone 10mg",
+    "Notes": "Used for nausea and vomiting.",
+    "ExpiryDate": "2026-11-30T00:00:00Z",
+    "Quantity": 48,
+    "Price": 36.00,
+    "Brand": "Torrent Pharma",
+    "CreatedAt": "2026-05-17T02:38:16.2528731Z",
+    "UpdatedAt": "2026-05-17T02:39:57.6404018Z"
+  },
+  {
+    "Id": 8,
+    "FullName": "Hydroxychloroquine 200mg",
+    "Notes": "Used for autoimmune disorders.",
+    "ExpiryDate": "2026-06-01T00:00:00Z",
+    "Quantity": 4,
+    "Price": 165.00,
+    "Brand": "Ipca",
+    "CreatedAt": "2026-05-17T02:38:16.2528731Z",
+    "UpdatedAt": "2026-05-17T02:39:57.6404018Z"
+  },
+  {
+    "Id": 9,
+    "FullName": "Pregabalin 75mg",
+    "Notes": "Used for nerve pain treatment.",
+    "ExpiryDate": "2027-02-14T00:00:00Z",
+    "Quantity": 73,
+    "Price": 188.00,
+    "Brand": "Pfizer",
+    "CreatedAt": "2026-05-17T02:38:16.2528731Z",
+    "UpdatedAt": "2026-05-17T02:39:57.6404018Z"
+  },
+  {
+    "Id": 10,
+    "FullName": "Linezolid 600mg",
+    "Notes": "Strong antibiotic for severe infections.",
+    "ExpiryDate": "2026-05-25T00:00:00Z",
+    "Quantity": 2,
+    "Price": 450.00,
+    "Brand": "Macleods",
+    "CreatedAt": "2026-05-17T02:38:16.2528731Z",
+    "UpdatedAt": "2026-05-17T02:39:57.6404018Z"
+  },
+  {
+    "Id": 11,
+    "FullName": "Paracetamol 450mg",
+    "Notes": "Paracetamol 450mg for pain",
+    "ExpiryDate": "2027-08-30T00:00:00Z",
+    "Quantity": 500,
+    "Price": 45,
+    "Brand": "Cipla",
+    "CreatedAt": "2026-05-17T03:22:16.1291892Z",
+    "UpdatedAt": "2026-05-17T03:22:16.1291892Z"
+  }
+]

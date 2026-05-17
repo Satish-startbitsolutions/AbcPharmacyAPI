@@ -138,6 +138,7 @@ public class MedicineService : IMedicineService
         };
 
         _store.Medicines.Add(medicine);
+        _store.SaveMedicines();
         return Task.FromResult(ToResponse(medicine));
     }
 
@@ -157,7 +158,7 @@ public class MedicineService : IMedicineService
         if (request.Brand      != null) medicine.Brand      = request.Brand.Trim();
 
         medicine.UpdatedAt = DateTime.UtcNow;
-
+        _store.SaveMedicines();
         return Task.FromResult<MedicineResponse?>(ToResponse(medicine));
     }
 
@@ -170,6 +171,7 @@ public class MedicineService : IMedicineService
         if (medicine == null) return Task.FromResult(false);
 
         _store.Medicines.Remove(medicine);
+        _store.SaveMedicines();
         return Task.FromResult(true);
     }
 
